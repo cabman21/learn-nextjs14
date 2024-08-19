@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Root() {
   const [isLoading, setIsLoading] = useState(true);
