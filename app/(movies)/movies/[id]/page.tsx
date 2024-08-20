@@ -13,8 +13,6 @@ export async function generateMetadata({ params: { id } }: IParams) {
   };
 }
 
-const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
-
 export default async function MovieDetail({ params: { id } }: IParams) {
   return (
     <div>
